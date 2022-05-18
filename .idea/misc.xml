@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/free/res/layout/activity_favorite.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/free/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/free/res/layout/item_country.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/free/res/layout/item_country_list.xml" value="0.36666666666666664" />
@@ -13,7 +14,10 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/main/res/layout/item_country.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/main/res/layout/item_country_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/premium/res/layout/activity_favorite.xml" value="0.2749094202898551" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/premium/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/premium/res/layout/item_country.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MiniProjectProductFlavor/app/src/premium/res/layout/item_country_list.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

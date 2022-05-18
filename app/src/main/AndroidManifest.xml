@@ -16,7 +16,7 @@
         android:theme="@style/Theme.MiniProjectProductFlavor"
         tools:targetApi="31">
         <activity
-            android:name=".FavoriteActivity"
+            android:name=".view.FavoriteActivity"
             android:exported="false" />
         <activity
             android:name=".view.MainActivity"

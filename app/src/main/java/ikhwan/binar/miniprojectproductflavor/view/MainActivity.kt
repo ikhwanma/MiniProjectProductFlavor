@@ -1,9 +1,10 @@
 package ikhwan.binar.miniprojectproductflavor.view
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.viewModels
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -25,6 +26,15 @@ class MainActivity : AppCompatActivity() {
 
         dataStoreManager = DataStoreManager(this)
 
+        fetchData()
+
+        btn_fav.setOnClickListener {
+            startActivity(Intent(this, FavoriteActivity::class.java))
+            finish()
+        }
+    }
+
+    fun fetchData() {
         dataStoreManager.boolean.asLiveData().observe(this){
             switch_rv.isChecked = it
             viewModel.getCountry()
@@ -52,6 +62,5 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-
     }
 }
