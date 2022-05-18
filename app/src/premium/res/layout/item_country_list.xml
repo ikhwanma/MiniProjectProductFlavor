@@ -67,14 +67,6 @@
                 android:text=""
                 android:textSize="14sp" />
         </LinearLayout>
-        <ImageView
-            android:id="@+id/btn_favorite"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_margin="5dp"
-            android:layout_alignParentEnd="true"
-            android:src="@drawable/ic_baseline_favorite_border_24"
-            android:contentDescription="@string/image" />
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

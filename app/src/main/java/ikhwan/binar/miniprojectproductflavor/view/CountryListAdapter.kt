@@ -26,11 +26,14 @@ class CountryListAdapter(private val listCountry: List<GetCountryResponseItem>) 
         val data = listCountry[position]
 
         holder.itemView.apply {
+            val txtCapital = "Capital : ${data.capital}"
+            val txtPopulation = "Population : ${data.population}"
+            val txtRegion = "Region : ${data.region}"
             tv_country.text = data.name
-            tv_capital.text = data.capital
-            tv_cpopulation.text = data.population.toString()
+            tv_capital.text = txtCapital
+            tv_cpopulation.text = txtPopulation
             Glide.with(holder.itemView).load(data.flags.png).into(img_country)
-            tv_region.text = data.region
+            tv_region.text = txtRegion
         }
     }
 
